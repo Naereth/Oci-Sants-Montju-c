@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c23b375ac352c7154b5863cbe7ed55b7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c23b375ac352c7154b5863cbe7ed55b7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c23b375ac352c7154b5863cbe7ed55b7 = L.map(
+                "map_c23b375ac352c7154b5863cbe7ed55b7",
+                {
+                    center: [41.3735, 2.149],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4789231fea2d745df670cbe4a99dff6c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+            var circle_marker_3403fe360104f2bfb25c3ac9cd946a21 = L.circleMarker(
+                [41.3744026, 2.1695606],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+        var popup_ad3adec6d0f7a93cbbd63fc92501001d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_044f062509e57af27f13d674b28c5f3c = $(`<div id="html_044f062509e57af27f13d674b28c5f3c" style="width: 100.0%; height: 100.0%;">Poble-sec - Sala Apolo</div>`)[0];
+            popup_ad3adec6d0f7a93cbbd63fc92501001d.setContent(html_044f062509e57af27f13d674b28c5f3c);
+        
+
+        circle_marker_3403fe360104f2bfb25c3ac9cd946a21.bindPopup(popup_ad3adec6d0f7a93cbbd63fc92501001d)
+        ;
+
+        
+    
+    
+            var circle_marker_05e2eebfb28e2d93e475fc561c04443d = L.circleMarker(
+                [41.3729327, 2.1680306],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+        var popup_10678ad50a0cddaf4cce250badc6e556 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebe5aa5fca6afc5cf02eab84d889d4ae = $(`<div id="html_ebe5aa5fca6afc5cf02eab84d889d4ae" style="width: 100.0%; height: 100.0%;">Poble-sec - Sala Plataforma</div>`)[0];
+            popup_10678ad50a0cddaf4cce250badc6e556.setContent(html_ebe5aa5fca6afc5cf02eab84d889d4ae);
+        
+
+        circle_marker_05e2eebfb28e2d93e475fc561c04443d.bindPopup(popup_10678ad50a0cddaf4cce250badc6e556)
+        ;
+
+        
+    
+    
+            var circle_marker_9fd9359e7effba43c3b14164c02423dc = L.circleMarker(
+                [41.3738237, 2.1697507],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+        var popup_00dc61945d49cded94d9494c10d7f8e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_558d9d0aef52e258b2205b671bb8442d = $(`<div id="html_558d9d0aef52e258b2205b671bb8442d" style="width: 100.0%; height: 100.0%;">Poble-sec - LAUT</div>`)[0];
+            popup_00dc61945d49cded94d9494c10d7f8e0.setContent(html_558d9d0aef52e258b2205b671bb8442d);
+        
+
+        circle_marker_9fd9359e7effba43c3b14164c02423dc.bindPopup(popup_00dc61945d49cded94d9494c10d7f8e0)
+        ;
+
+        
+    
+    
+            var circle_marker_b8129905c600de2f824beae6bea1d7e3 = L.circleMarker(
+                [41.374157, 2.165761],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+        var popup_de4fdcac294c10c02e0feb5f9c408e18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00a4503f9572439c244ed9e12a272590 = $(`<div id="html_00a4503f9572439c244ed9e12a272590" style="width: 100.0%; height: 100.0%;">Poble-sec - Rouge Cocktail Club</div>`)[0];
+            popup_de4fdcac294c10c02e0feb5f9c408e18.setContent(html_00a4503f9572439c244ed9e12a272590);
+        
+
+        circle_marker_b8129905c600de2f824beae6bea1d7e3.bindPopup(popup_de4fdcac294c10c02e0feb5f9c408e18)
+        ;
+
+        
+    
+    
+            var circle_marker_8d89a245512ce815f3d9de60b1589417 = L.circleMarker(
+                [41.373444, 2.1561989],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+        var popup_1b86dc265834c72c5641b72cc69dae58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bc3d25c54f4b2b3fa7eed87e501f167 = $(`<div id="html_1bc3d25c54f4b2b3fa7eed87e501f167" style="width: 100.0%; height: 100.0%;">Poble-sec - Espai Salvadiscos</div>`)[0];
+            popup_1b86dc265834c72c5641b72cc69dae58.setContent(html_1bc3d25c54f4b2b3fa7eed87e501f167);
+        
+
+        circle_marker_8d89a245512ce815f3d9de60b1589417.bindPopup(popup_1b86dc265834c72c5641b72cc69dae58)
+        ;
+
+        
+    
+    
+            var circle_marker_8ab54682c0cb95faf3db7f270a55f976 = L.circleMarker(
+                [41.3718747, 2.1674842],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+        var popup_47818fcd84dafe7a34480e34656e6749 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9812d94856e4319fd93ed52b2d86f7c1 = $(`<div id="html_9812d94856e4319fd93ed52b2d86f7c1" style="width: 100.0%; height: 100.0%;">Poble-sec - Meteoro</div>`)[0];
+            popup_47818fcd84dafe7a34480e34656e6749.setContent(html_9812d94856e4319fd93ed52b2d86f7c1);
+        
+
+        circle_marker_8ab54682c0cb95faf3db7f270a55f976.bindPopup(popup_47818fcd84dafe7a34480e34656e6749)
+        ;
+
+        
+    
+    
+            var circle_marker_a2e4c189dcdfebb7ee683f17dae3ab24 = L.circleMarker(
+                [41.3755, 2.1376],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+        var popup_05f2219cfa360bf6e4b99f9bd5ba522c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d993ed7a731750135cf84232a0f39cc7 = $(`<div id="html_d993ed7a731750135cf84232a0f39cc7" style="width: 100.0%; height: 100.0%;">Sants - Plaça d’Osca (punt calent)</div>`)[0];
+            popup_05f2219cfa360bf6e4b99f9bd5ba522c.setContent(html_d993ed7a731750135cf84232a0f39cc7);
+        
+
+        circle_marker_a2e4c189dcdfebb7ee683f17dae3ab24.bindPopup(popup_05f2219cfa360bf6e4b99f9bd5ba522c)
+        ;
+
+        
+    
+    
+            var circle_marker_f219ff0405ac27928e972b7750fcafec = L.circleMarker(
+                [41.375, 2.1339],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+        var popup_925ecb35d4ae36f1edfde983749f2ecb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6b19e55ab66eec5999a5298854236f2 = $(`<div id="html_f6b19e55ab66eec5999a5298854236f2" style="width: 100.0%; height: 100.0%;">Sants - El Meneo</div>`)[0];
+            popup_925ecb35d4ae36f1edfde983749f2ecb.setContent(html_f6b19e55ab66eec5999a5298854236f2);
+        
+
+        circle_marker_f219ff0405ac27928e972b7750fcafec.bindPopup(popup_925ecb35d4ae36f1edfde983749f2ecb)
+        ;
+
+        
+    
+    
+            var circle_marker_edf02db8909e00a1028482887c2c5c8d = L.circleMarker(
+                [41.3757, 2.1347],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+        var popup_1c83f50d1bf3a78d7593ae8adff96227 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d41ac5454609bef10c834f49139d624 = $(`<div id="html_8d41ac5454609bef10c834f49139d624" style="width: 100.0%; height: 100.0%;">Sants - Bar Melodia</div>`)[0];
+            popup_1c83f50d1bf3a78d7593ae8adff96227.setContent(html_8d41ac5454609bef10c834f49139d624);
+        
+
+        circle_marker_edf02db8909e00a1028482887c2c5c8d.bindPopup(popup_1c83f50d1bf3a78d7593ae8adff96227)
+        ;
+
+        
+    
+    
+            var circle_marker_ae788b4cbdcfe621582394d3c726ecd2 = L.circleMarker(
+                [41.3737, 2.1303],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+        var popup_233da10c601b3f007b85feddd1b97638 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96ea218bb1a39591748e7aac615f1068 = $(`<div id="html_96ea218bb1a39591748e7aac615f1068" style="width: 100.0%; height: 100.0%;">Sants Badal - Plaça Olivereta (punt calent)</div>`)[0];
+            popup_233da10c601b3f007b85feddd1b97638.setContent(html_96ea218bb1a39591748e7aac615f1068);
+        
+
+        circle_marker_ae788b4cbdcfe621582394d3c726ecd2.bindPopup(popup_233da10c601b3f007b85feddd1b97638)
+        ;
+
+        
+    
+    
+            var circle_marker_ac4a699844c6ec07cecf317dca666d68 = L.circleMarker(
+                [41.3638, 2.132],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c23b375ac352c7154b5863cbe7ed55b7);
+        
+    
+        var popup_48cb3bdab039e556f0bea7e1b1422f7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f260c7aa77dd993b82a1e12c15a555d5 = $(`<div id="html_f260c7aa77dd993b82a1e12c15a555d5" style="width: 100.0%; height: 100.0%;">La Marina - Jardins de la Mediterrània (punt calent)</div>`)[0];
+            popup_48cb3bdab039e556f0bea7e1b1422f7f.setContent(html_f260c7aa77dd993b82a1e12c15a555d5);
+        
+
+        circle_marker_ac4a699844c6ec07cecf317dca666d68.bindPopup(popup_48cb3bdab039e556f0bea7e1b1422f7f)
+        ;
+
+        
+    
+</script>
+</html>
